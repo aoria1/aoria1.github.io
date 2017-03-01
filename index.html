@@ -33,7 +33,7 @@
 </nav>
 
 <div id="me" class="container-fluid bg-1 text-center">
-  <h3>Who Am I?</h3>
+  <h3>Who Am I?<p style="font-size:10px">Hint: hover over me</p></h3>
 <div class="con">
   <img src="img/profile.png" class="img-responsive img-circle" style="display:inline" alt="Me">
 	<div class="textbox">
@@ -48,17 +48,41 @@
   </div>
   <h3>I'm a Computer Scientist</h3>
 </div>
+<div id="jipa" class="over">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="over-content">
+    <p>The Java Interview Preparation Application (JIPA) is an android based mobile application, which is intended to help users prepare for upcoming job interviews. 
+	Application users will have the option to view interview questions, complete an interview quiz, and submit new questions for review. 
+	Users will also have the option to provide feedback per individual question (i.e. like or dislike) and feedback related to the entire application. 
+	An administrator will manage the application through a website where relevant metrics will be monitored and information (i.e. feedback) will be processed to improve application utility.
+	This application was a project for one of my classes and I decided to continue the application by myself.</p>
+  </div>
+</div>
+
+<div id="truevalue" class="over">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNavT()">&times;</a>
+  <div class="over-content">
+    <p>During my internship, I created a workbench for data stewards using c# and asp.net. 
+	The workbench lets the data stewards view and edit data from a database. 
+	It gave the data steward a better user friendly way to edit and update data.
+	Because of company confidentiality I could only present a template of the workbench I created.</p>
+  </div>
+</div>
 
 <div id="projects" class="container-fluid bg-2 text-center">
   <h3>Projects</h3>
  <div class="row">
     <div class="col-sm-6">
       <p>Android Development School Project</p>
-      <img src="img/Jipa.png" class="img-responsive" style="width:100%" alt="Image">
+	<span  onclick="openNav()">
+	 <span style="cursor:pointer"> 
+      <img src="img/Jipa.png" class="img-rounded" style="width:100%" alt="Image"> </span> </span>
+	 
     </div>
     <div class="col-sm-6">
       <p>Internship Project</p>
-      <img src="img/logoTv.png" class="img-responsive" style="width:100%" alt="Image">
+	  <span  onclick="openNavT()">
+     <span style="cursor:pointer"> <img src="img/logoTv.png" class="img-rounded" style="width:100%" alt="Image"> </span></span>
     </div>
   </div>
 </div>
@@ -276,5 +300,6 @@
                  </ul>
   <p>Copyright &copy; Antonio Oria 2016</a></p> 
 </footer>
+   <script src="js/script.js"></script>
 </body>
 </html>
