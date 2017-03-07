@@ -206,3 +206,33 @@ transition: all 0.7s ease;
 	color:#444;
 	color:rgba(0, 0, 0, 0.4);
 }
+.tvimg{
+	 width: 70%;
+    margin-top: 13%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: auto;
+}
+.carousel-indicators{
+	bottom:-50px;
+}
+.carousel-caption{
+   max-width: 550px;
+      padding: 0 20px;
+      margin:0 auto;
+      margin-top: 200px;
+      text-align:center;
+}
+.carousel-inner > .item > div{
+    width: 25%;
+    margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+	  
+		width: 25%;
+		margin: auto;
+  }
