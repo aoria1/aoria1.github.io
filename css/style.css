@@ -113,20 +113,15 @@ width:200px;
 height:300px;
 margin-left:-210px;
 }
-.con:hover .textbox {
+.con:hover, .info-slide:active .textbox {
 margin-left:0;
 }
-.con:focus .textbox {
-margin-left:0;
-}
+
 .cont img {
 margin-left:0;
 }
-.con:hover img {
+.con:hover, .info-slide:active img {
 margin-left:210px;
-}
-.con:focus .textbox {
-margin-left:0;
 }
 .text {
 padding-top: 50px;
