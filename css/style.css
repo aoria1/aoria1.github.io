@@ -113,14 +113,13 @@ width:200px;
 height:300px;
 margin-left:-210px;
 }
-.con:hover, .info-slide:active .textbox {
+.con:hover .textbox {
 margin-left:0;
 }
-
 .cont img {
 margin-left:0;
 }
-.con:hover, .info-slide:active img {
+.con:hover img {
 margin-left:210px;
 }
 .text {
