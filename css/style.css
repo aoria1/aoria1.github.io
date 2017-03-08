@@ -116,11 +116,17 @@ margin-left:-210px;
 .con:hover .textbox {
 margin-left:0;
 }
+.con:focus .textbox {
+margin-left:0;
+}
 .cont img {
 margin-left:0;
 }
 .con:hover img {
 margin-left:210px;
+}
+.con:focus .textbox {
+margin-left:0;
 }
 .text {
 padding-top: 50px;
