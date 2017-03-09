@@ -24,6 +24,10 @@ p{
     color: #555555;
 }
 
+.bg-5{
+	background-color: #993366;
+	 color: #ffffff;
+}
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
